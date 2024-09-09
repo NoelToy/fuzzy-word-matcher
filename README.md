@@ -1,3 +1,4 @@
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 # Fuzzy Word Matcher (FWM)
 
 **Fuzzy Word Matcher (FWM)** is a Java-based library designed to efficiently find the most similar word from a given list of words using fuzzy logic. This library provides flexibility by allowing users to choose between two well-known similarity metrics: Jaro-Winkler and Cosine Similarity.
