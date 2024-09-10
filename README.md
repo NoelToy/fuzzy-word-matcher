@@ -20,6 +20,14 @@
 + **Apache Commons Text**: Used for calculating Jaro-Winkler and Cosine Similarity scores.
 + **Java 8 or higher**: The minimum required Java version to run the library.
 ## Usage/Examples
+### Add Maven Dependency
+```xml
+<dependency>
+    <groupId>io.github.noeltoy</groupId>
+    <artifactId>fuzzy-word-matcher</artifactId>
+    <version>0.1</version>
+</dependency>
+```
 ### Example for Jaro-Winkler
 ```java
 import io.github.fwm.WordMatcher;
