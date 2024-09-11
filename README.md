@@ -1,4 +1,7 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.noeltoy/fuzzy-word-matcher.svg?label=Maven%20Central)](https://search.maven.org/artifact/io.github.noeltoy/fuzzy-word-matcher)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/noeltoy/fuzzy-word-matcher?logo=GitHub)](https://github.com/noeltoy/fuzzy-word-matcher/releases)
+[![javadoc](https://javadoc.io/badge2/io.github.noeltoy/fuzzy-word-matcher/javadoc.svg)](https://javadoc.io/doc/io.github.noeltoy/fuzzy-word-matcher)
 # Fuzzy Word Matcher (FWM)
 
 **Fuzzy Word Matcher (FWM)** is a Java-based library designed to efficiently find the most similar word from a given list of words using fuzzy logic. This library provides flexibility by allowing users to choose between two well-known similarity metrics: Jaro-Winkler and Cosine Similarity.
@@ -75,6 +78,8 @@ public void cosineSimilarityTest(){
 | threshold    | Double         | Sets the minimum similarity score required for a match.  If the similarity distance between the best match and  the search input word is less than this threshold (ranging from 0 to 1),  **Fuzzy Word Matcher (FWM)** will return a predefined  default value instead of the best match. | 0.60           |
 | defaultValue | String         | The value to be returned if the similarity score between the  best match and the search input word is below the defined threshold.  This ensures **Fuzzy Word Matcher (FWM)** provides a fallback option  when no sufficiently close match is found.                                      | NULL           |
 
+## Acknowledgement
+The development of **Fuzzy Word Matcher (FWM)** was inspired by the [Intuit Fuzzy Matcher](https://github.com/intuit/fuzzy-matcher) project.
 ## License
 [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)
 
